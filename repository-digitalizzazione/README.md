@@ -1,4 +1,4 @@
-# Struttura del Repository per Digitalizzazione Archivistica
+# Struttura del repository per la digitalizzazione archivistica campione
 
 Questo repository è strutturato per facilitare il processo di digitalizzazione, trascrizione e codifica XML TEI di documenti d'archivio. Ogni file segue una nomenclatura chiara e il repository è organizzato per garantire continuità e tracciabilità del lavoro.
 
