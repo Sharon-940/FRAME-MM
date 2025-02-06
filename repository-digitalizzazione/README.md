@@ -10,8 +10,7 @@ Questo repository è strutturato per facilitare il processo di digitalizzazione,
 │-- 📁 raw_texts/           # Testi trascritti trasformati in una forma più adatta ad analisi computazionali mediante processi NLP e text mining
 │-- 📁 tei_encoded/         # Testi codificati in XML TEI
 │-- 📁 metadata/            # Metadati e documentazione
-│-- 📁 logs/                # Registrazione avanzamento lavori
-│-- 📁 images/              # Scansioni e immagini collegate
+│-- 📁 images/              # Scansioni e immagini collegate?
 │-- 📄 README.md            # Descrizione del progetto
 │-- 📄 tracking.xlsx        # Foglio di tracciamento del processo
 ```
@@ -53,8 +52,15 @@ Migliora l’accessibilità e la leggibilità rispetto a un regesto cartaceo.
 3. **Codificare in TEI** e archiviare in `/tei_encoded/`;
 4. **Aggiornare il relativo regesto** con metadati e sintesi del contenuto del documento;
 5. **Compilare il tracking.xlsx** con tempi e stato d'avanzamento;
-6. **Documentare eventuali problemi** nel file log della cartella `/logs/`.
 
 ## 📌 Strumenti Utili
 - **Visual Studio Code** per la codifica TEI
 - **Clockify per il time tracking**
+
+## 📌 Documentazione del flusso di lavoro
+Per documentare le modifiche effettuate, le attività, problemi riscontrati, soluzioni adottate nel lavoro di digitalizzazione archivistica campione sfruttare le descrizioni del commit GitHub, di modo che funga da registro delle attività di ricerca. Di conseguenza, la descrizione nel commit andrà compilata seguendo questa struttura:
+
+1. Breve descrizione per riassumere la modifica effettuata
+2. Obiettivo della modifica (ad esempio risolvere una questione di organizzazione, errori, ecc...)
+3. Problema o criticità affrontata
+2. Soluzione implementata e perchè è utile
