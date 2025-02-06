@@ -35,12 +35,12 @@ Per facilitare temporaneamente il ritrovamento di un documento, è stato prodott
 📌 Cosa contiene?
 Ogni documento è descritto con:
 
-📜 Codice di segnatura (per identificarlo nell'archivio)
-✍️ Autore e coautori (intesi anche come trascrittori)
-📖 Titolo
-📅 Data
-🏛 Macrotema (es. Architettura, Urbanistica)
-📜 Sintesi del contenuto
+- 📜 Codice di segnatura (per identificarlo nell'archivio)
+- ✍️ Autore e coautori (intesi anche come trascrittori)
+- 📖 Titolo
+- 📅 Data
+- 🏛 Macrotema (es. Architettura, Urbanistica)
+- 📜 Sintesi del contenuto
 
 🔍 A cosa serve?
 Permette di esplorare il corpus documentale con strumenti digitali.
