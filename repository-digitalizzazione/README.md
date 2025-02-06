@@ -39,7 +39,7 @@ Ogni documento è descritto con:
 - ✍️ Autore e coautori (intesi anche come trascrittori)
 - 📖 Titolo
 - 📅 Data
-- 🏛 Macrotema (es. Architettura, Urbanistica)
+- 🏛 Macrotema (es. Architettura, Arte)
 - 📜 Sintesi del contenuto
 
 🔍 A cosa serve?
