@@ -28,7 +28,7 @@ MAN_Mansutti_ARCHITETTURA1941_1941.xml
 ```
 
 ## 🛠️ Workflow
-1. **Inserire il documento grezzo** in `/raw_texts/`. Per grezzo, si intende la trascrizione ottenuta dal processo OCR o HTR ed eventualmente corretta a mano. Queste trascrizioni saranno utili per effettuare eventuali analisi statistiche del linguaggio (NLP, text mining).
+1. **Inserire il documento grezzo** in `/raw_texts/`. si intende la trascrizione ottenuta tramite OCR o HTR, eventualmente corretta a mano. Queste trascrizioni saranno utili per condurre analisi statistiche del linguaggio, mediante processi di NLP e text mining.
 2. **Trascrivere il testo** e salvarlo in `/transcriptions/`.
 3. **Codificare in TEI** e archiviare in `/tei_encoded/`.
 4. **Compilare il tracking.xlsx** con tempi e stato d'avanzamento.
