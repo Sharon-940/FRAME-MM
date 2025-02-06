@@ -47,7 +47,7 @@ Permette di esplorare il corpus documentale con strumenti digitali.
 Facilita l'organizzazione e la ricerca nei documenti.
 Migliora l’accessibilità e la leggibilità rispetto a un regesto cartaceo.
 
-## 🛠️ Workflow
+## 🛠️ Flusso di lavoro
 1. **Inserire la trascrizione corretta** e salvarla in `/transcriptions/`. Per corretta si intende la trascrizione ottenuta tramite OCR o HTR, eventualmente corretta a mano. Queste trascrizioni saranno utili per condurre analisi statistiche del linguaggio, mediante processi di NLP e text mining;
 1. **Inserire il documento pre-processato** in `/raw_texts/`. Per pre-processato si intende trascrizioni da cui sono state rimosse stop word e su cui sono state fatte elaborazione e normalizzazioni essenziali per la loro analisi mediante processi di NLP e text mining;
 3. **Codificare in TEI** e archiviare in `/tei_encoded/`;
