@@ -20,7 +20,7 @@ Questo repository è strutturato per facilitare il processo di digitalizzazione,
 
 I file seguiranno il formato:
 ```
-CodiceSegnaturaDocumento.xml
+CodiceSegnaturaDocumento.estensione
 ```
 Esempio:
 ```
