@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt> 
+                <title>Regesto scritti Francesco Mansutti</title>
+                <editor xml:id="sgiammetta">Sharon Giammetta</editor>
+                <principal xml:id="szaggia">Stefano Zaggia</principal>
+                <respStmt ref="#sgiammetta">
+                    <resp>Creatore della raccolta e del titolo</resp>
+                </respStmt>      
+                <respStmt ref="#szaggia">
+                    <resp>supervisore del lavoro di interpretazione storica</resp>
+                </respStmt>
+                <respStmt xml:id="pborin">
+                    <resp>supervisore del lavoro digitale</resp>
+                    <persName>Paolo Borin</persName>
+                </respStmt>
+                <respStmt xml:id="fmansutti">
+                    <role>Autore originale degli scritti</role>
+                    <persName>Francesco Mansutti</persName>
+                </respStmt>   
+                <respStmt xml:id="smansutti">
+                    <role>Trascrittore originale degli scritti</role>
+                    <persName>Silvia Mansutti</persName>
+                </respStmt>  
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher ref="#sgiammetta">Sharon Giammetta</publisher>
+                <pubPlace>Padova</pubPlace>
+                <date when="2025-02-06">2025</date> 
+                <availability> Specificare licenza con cui codivido il documento TEI. Rivedi licenze viste anche con apertura repository GitHub</availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Questo file, regesto_scritti_mansutti.xml, è la versione codificata in XML TEI di un regesto tradizionale. Un regesto è un elenco 
+                strutturato di documenti storici che fornisce informazioni essenziali su ciascun testo senza riportarne il contenuto completo.
+                L'uso dello standard TEI (Text Encoding Initiative) permette di organizzare e navigare il corpus in modo più efficace, migliorando 
+                la leggibilità e la ricerca dei documenti. Ogni documento è descritto con: Codice di segnatura (per identificarlo nell'archivio); 
+                Autore e coautori; Titolo; Data; Macrotema (es. Architettura, Arte) e, infine, un breve riassunto dello scritto.</p>
+            </sourceDesc>
+
+            <encodingDesc>
+                <projectDesc>Il presente documento XML si propone di completare il lavoro di riordino e organizzazione intrapreso
+                dall'archivio.
+                </projectDesc>
+            </encodingDesc>
+        </fileDesc>
+
+        <!-- ########## Lista Temi ##########--> 
+        <list>
+            <head>Lista Temi</head>
+            <!-- ########## A #########-->
+            <term xml:id="architettura" ref="Inserire URI risorsa se contenuta nel Knoledge Graph"> 
+                <name>Architettura</name>
+            </term>
+        </list>
+    
+    <text>
+        <front>
+        </front>
+        <body>
+            <group type="macrotheme" subtype="architettura">
+                <div xml:id="man_-mio_0004_0006_0008_0001" type="manuscript" n="1" when="1941"> 
+                    <pb xml:id="man_-mio_0004_0006_0008_0001-0001" n="1" facs="man_-mio_0004_0006_0008_0001-0001.tif"/>
+                    <head>ARCHITETTURA <date>1941</date></head>
+                    <pb xml:id="man_-mio_0004_0006_0008_0001-0002" n="2" facs="man_-mio_0004_0006_0008_0001-0002.tif"/>
+                    <pb xml:id="man_-mio_0004_0006_0008_0001-0003" n="3" facs="man_-mio_0004_0006_0008_0001-0003.tif"/>
+                    <note type="personal">Questo scritto è interessante perchè mostra un 
+                    interesse più ampio per l'architettura come campo di riflessione teorica
+                    che, pur con un linguaggio critico, cerca di rimettere in discussione 
+                    le correnti architettoniche dominanti del suo tempo. Elementi 
+                    significativi sono le parole con la maiuscola che potrebbero essere 
+                    indicatori concetti cardine nel suo pensiero.</note>
+                    <note type="summary"><p>Questo scritto esprime una critica profonda all'architettura del 
+                    "Novecento", identificata come la diretta discendente delle teorie 
+                    filosofiche ottocentesche, con un forte focus sull'estetica e la 
+                    funzionalità ridotta. L'autore sostiene che questa architettura, 
+                    pur chiamata "razionale" e "funzionale", in realtà non risponde ai 
+                    bisogni e alle azioni della vita, ma si concentra esclusivamente 
+                    sull'aspetto estetico.</p>
+                    <p>Secondo l'autore, l'architettura del Novecento è superficiale e 
+                    esteriore, un prodotto di una filosofia estetica priva di un legame 
+                    reale con la vita, i materiali e l'ambiente. La pianta degli edifici 
+                    è subordinata a un principio estetico che non tiene conto dei bisogni 
+                    pratici delle persone, come dimostrato dall'inefficienza degli spazi di
+                    servizio, progettati con dimensioni esigue.</p>
+                    <p>L'autore critica anche il fatto che l'architettura contemporanea 
+                    non rispetta i principi di umanità, dignità e legame con l'ambiente, 
+                    ma piuttosto riflette una speculazione mentale e finanziaria. Infine, 
+                    definisce l'architettura del Novecento come una continuazione del secolo 
+                    precedente, senza vera novità, che ripropone idee estetiche e teoriche 
+                    senza una base umana o pratica.</p>
+                    </note>
+                </div>
+                <div xml:id="man_-mio_0004_0006_0008_0002" type="manuscript" n="2" when="1941"> 
+                    <pb xml:id="man_-mio_0004_0006_0008_0002-0001" n="1" facs="man_-mio_0004_0006_0008_0002-0001.tif"/>
+                    <pb xml:id="man_-mio_0004_0006_0008_0002-0002" n="2" facs="man_-mio_0004_0006_0008_0002-0002.tif"/>
+                    <note type="personal">E' stata ipotizzata per lo scritto la datazione 1941 perchè essa
+                    è presente nel corpo del testo riprendendo il titolo di un altro scritto. Gli scritti
+                    sembrano correlati anche per la presenza di frasi analoghe.</note>
+                    <note type="summary">
+                    <p>Il testo critica l'architettura del Novecento, sostenendo che sia una teoria astratta e reazionaria, 
+                    priva di connessione con la vita reale. L'autore afferma che l'architettura del "900" è più legata al 
+                    passato che al futuro e ne denuncia l'approccio teorico, che sacrifica la funzionalità e le necessità 
+                    pratiche per ragioni estetiche. L'architettura 900 è descritta come una negazione della costruzione 
+                    e dell'ambiente di vita, imponendo un ordine estetico che distorce la realtà. La sua rigidità e 
+                    uniformità sono criticate come simbolo di inferiorità, mentre la "vita nuova" proposta dalla corrente 
+                    non viene considerata autentica, poiché la vita, a livello spirituale, resta vecchia e formale. 
+                    L'autore invoca un ritorno a una vera architettura nuova, che si basi sulla vita reale e sul 
+                    rinnovamento, superando gli errori del passato.</p>
+                    </note>
+                    <note type="error">I vecchi codici di segnatura associati a questo scritto 
+                    erano: man_-mio_0004_0006_0008_0001-0004, man_-mio_0004_0006_0008_0001-0005. 
+                    Si consiglia di rinominare il file immagine associato.</note>
+                </div>
+                <div xml:id="man_-mio_0004_0006_0008_0003" type="manuscriptWithIllustrations" n="3" when="">
+                    <pb xml:id="man_-mio_0004_0006_0008_0003-0001" n="1" facs="man_-mio_0004_0006_0008_0003-0001.tif"/>
+                    <pb xml:id="man_-mio_0004_0006_0008_0003-0002" n="2" facs="man_-mio_0004_0006_0008_0003-0002.tif"/>
+                    <note type="summary"><p>Il testo riflette sull'importanza dell'edilizia
+                    come attività centrale per la città e come fondamento della vita sociale, 
+                    evidenziando come essa sia stata finora trascurata dal comune. L’autore 
+                    critica aspramente la gestione passiva di questa attività, descrivendola 
+                    come amministrata solo per necessità imposte dalla legge, senza alcuna 
+                    visione d'insieme o volontà di valorizzarne il potenziale. In questo 
+                    quadro, la casa costruita dai cittadini non viene percepita come parte 
+                    integrante della città, ma come un elemento separato, tutelato dal 
+                    comune solo per rispettare requisiti minimi di estetica e igiene 
+                    imposti dalle normative. Un esempio emblematico di questa cattiva 
+                    gestione è il quartiere di Santa Lucia, dove le abitazioni moderne 
+                    vengono descritte come architettonicamente peggiori rispetto a quelle 
+                    antiche. Inoltre, le dispute tra i proprietari per questioni di aria 
+                    e luce rivelano la presenza di regolamenti igienici considerati obsoleti, 
+                    addirittura paragonabili a norme medievali. Anche le case costruite 
+                    nelle periferie non sfuggono alla critica: esse incarnano un’incertezza 
+                    culturale, sospese tra le influenze del romanticismo e del razionalismo, 
+                    senza riuscire a rappresentare una sintesi coerente o un progetto urbano 
+                    significativo. Queste abitazioni risultano essere, secondo l’autore, dei 
+                    "meschini ricordi" di un’epoca confusa e falliscono sia dal punto di 
+                    vista economico, penalizzando i proprietari, sia dal punto di vista 
+                    urbanistico, danneggiando il comune.</p> 
+                    <p>Infine, un disegno incluso nello scritto raffigura una planimetria 
+                    architettonica con abitazioni immerse in spazi verdi ben curati, 
+                    suggerendo forse un modello ideale di residenza che contrasta 
+                    con la realtà descritta nel testo, sottolineando ulteriormente 
+                    la necessità di una gestione più consapevole e integrata dell’edilizia,
+                    affinché essa diventi davvero parte del tessuto urbano e contribuisca 
+                    in maniera significativa alla qualità della vita nella città.</p></note>
+                    <note type="error">I vecchi codici di segnatura associati a questo scritto 
+                    erano: man_-mio_0004_0006_0008_0001-0006, man_-mio_0004_0006_0008_0001-0007. 
+                    Si consiglia di rinominare il file immagine associato.</note>
+                </div>
+                <div xml:id="man_-mio_0004_0006_0008_0004" type="manuscript" n="4" when="1941">
+                    <pb xml:id="man_-mio_0004_0006_0008_0004-0001" n="1" facs="man_-mio_0004_0006_0008_0004-0001.tif"/>
+                    <head>ARCHITETTURA 1941</head>
+                    <note type="summary">Il testo si concentra sul concetto di architettura, 
+                    definita come l'arte di costruire per l'uomo, con la Natura che rappresenta 
+                    la base e l'elemento fondamentale di ogni costruzione. I termini "Uomo", 
+                    "Natura" e "costruzione" vengono presentati come i pilastri su cui si 
+                    fonda l'architettura, ma l’autore denuncia come, nel corso dei secoli, 
+                    teorie e filosofie abbiano allontanato l'architettura dalle sue basi 
+                    naturali. Queste teorie hanno trasformato un'attività spontanea e 
+                    semplice in un compito artificioso, portando alla confusione tra il 
+                    vero e il falso, il buono e il cattivo. L'autore critica aspramente 
+                    l'evoluzione dell'architettura, che è diventata una teoria filosofica, 
+                    oggetto di discussioni e formule complicate, simile ad altre teorie 
+                    filosofiche del XIX secolo. In questo nuovo contesto, l'uomo non è più 
+                    visto come un individuo libero e governatore di sé stesso, ma come uno 
+                    strumento inconsapevole di teorie che lo sovrastano. La Natura, da 
+                    fondamento della vita, è ormai ridotta a mera risorsa materiale, 
+                    destinata ad essere sfruttata per l'energia e i mezzi che può offrire, 
+                    mentre la vita non è più vista come uno sviluppo spontaneo, ma come un 
+                    processo artificioso e sfruttato. Il testo esplora quindi una critica 
+                    profonda alla separazione tra l'architettura e la natura, nonché alla 
+                    trasformazione dell'architettura stessa in un sistema teorico lontano 
+                    dalla realtà e dalla naturalezza della vita umana. Si rileva come la 
+                    teoria architettonica abbia perso il suo legame intrinseco con la natura 
+                    e con l'umanità, trasformandosi in una riflessione filosofica che, a 
+                    dispetto delle sue intenzioni, ha allontanato l'architettura dalla sua 
+                    funzione primaria di servire l'uomo e il suo ambiente naturale.</note>
+                    <note type="error">I vecchi codici di segnatura associati a questo scritto 
+                    erano: man_-mio_0004_0006_0008_0001-0008, man_-mio_0004_0006_0008_0001-0009. 
+                    Si consiglia di rinominare il file immagine associato.</note>
+                </div>
+                <div xml:id="man_-mio_0004_0006_0008_0005" type="manuscript" n="5" when="">
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0001" n="1" facs="man_-mio_0004_0006_0008_0005-0001.tif"/>
+                    <head></head>
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0002" n="2" facs="man_-mio_0004_0006_0008_0005-0002.tif"/>
+                    <note type="editorial">La pagina contiene dati di computo non rilevanti per il momento</note>
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0003" n="3" facs="man_-mio_0004_0006_0008_0005-0003.tif"/> 
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0004" n="4" facs="man_-mio_0004_0006_0008_0005-0004.tif"/>
+                    <note type="editorial">La pagina contiene dati di computo non rilevanti per il momento</note>
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0005" n="5" facs="man_-mio_0004_0006_0008_0005-0005.tif"/>
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0006" n="6" facs="man_-mio_0004_0006_0008_0005-0006.tif"/>
+                    <note type="editorial">La pagina contiene dati di computo non rilevanti per il momento</note>
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0007" n="7" facs="man_-mio_0004_0006_0008_0005-0007.tif"/>
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0008" n="8" facs="man_-mio_0004_0006_0008_0005-0008.tif"/>
+                    <note type="editorial">La pagina contiene dati di computo non rilevanti per il momento</note>
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0009" n="9" facs="man_-mio_0004_0006_0008_0005-0009.tif"/>
+                    <figure>
+                        <figDesc>Disegno raffigurante una planimetria a scala urbanistica.</figDesc>
+                    </figure>
+                    <pb xml:id="man_-mio_0004_0006_0008_0005-0010" n="10" facs="man_-mio_0004_0006_0008_0005-0010.tif"/>
+                    <figure>
+                        <figDesc>La pagina raffigura tre planimetrie probabilmente rappresentanti tre 
+                        livelli diversi dello stesso edificio.</figDesc>
+                    </figure>
+                    <note type="summary">Il testo esprime una critica all'architettura 
+                    moderna e alla società contemporanea, sostenendo che entrambe siano 
+                    prive di "carattere". Viene messa in discussione l'architettura attuale, 
+                    definita come astratta e convenzionale, incapace di esprimere la vera 
+                    essenza dell'architettura. Il testo sottolinea la carenza di un legame 
+                    profondo con la natura e con l'umanità, identificando l'architettura 
+                    moderna come una mera espressione di praticità e lusso superficiale. 
+                    Si critica la mancanza di un "buon committente", essenziale per la 
+                    creazione di una buona architettura.
+                    Il testo prosegue, affermando che parlare di arte in architettura ha 
+                    portato a un artificio privo di sostanza, dove la costruzione stessa 
+                    perde valore a favore di un design puramente estetico e convenzionale. 
+                    Viene enfatizzata l'importanza dell'amore e della passione nella 
+                    progettazione architettonica, un amore che deve essere infuso tanto 
+                    nella forma quanto nella materia. L'autore critica la superficialità 
+                    della modernità, in cui la materia e il particolare sono dimenticati 
+                    in favore di un'architettura convenzionale e disinteressata.
+                    Inoltre, viene espressa una visione dell'architettura che deve tornare 
+                    a essere in sintonia con la natura e l'uomo, attraverso l'autenticità 
+                    e la semplicità. L'architettura dovrebbe rispondere a bisogni essenziali, 
+                    lontano dalle teorie astratte e dalle influenze esteriori. Un altro 
+                    punto focale del testo riguarda la critica all'architettura fascista, 
+                    che dovrebbe corrispondere alla vita fascista, improntata sulla 
+                    semplicità, la verità e la forza dei bisogni umani. L'architettura, 
+                    secondo l'autore, non dovrebbe mai essere artificiale, ma deve emergere 
+                    in modo naturale e spontaneo, come una reazione a ciò che è stato fatto 
+                    prima. In conclusione, l'autore auspica un ritorno a un'architettura 
+                    autentica, priva di superficialità e teorie inutili, che metta al centro 
+                    l'uomo, la natura e le necessità fondamentali.</note>
+                    <note type="error">I vecchi codici di segnatura associati a questo scritto 
+                    comprendono: man_-mio_0004_0006_0008_0001-0010 a man_-mio_0004_0006_0008_0001-00019. 
+                    Si consiglia di rinominare il file immagine associato.</note>
+                </div>
+            </group>
+        </body>
+        <back>
+            <div>
+                <head>Indice degli scritti</head>
+                <list>
+                    <item>
+                        <ptr target="#scritto1"/> Come nasce un progetto
+                    </item>
+                </list>
+            </div>
+        </back>
+    </text>
+</TEI>
