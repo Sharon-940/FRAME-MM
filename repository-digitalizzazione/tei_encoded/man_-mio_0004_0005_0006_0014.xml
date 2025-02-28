@@ -54,6 +54,30 @@
             <persName xml:id="fmansutti" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Francesco_Mansutti"> 
                 <name>Francesco Mansutti</name>
             </persName>
+            <persName xml:id="morato" ref="">
+                <name>Morato</name>
+            </persName>
+            <persName xml:id="sartori" ref="">
+                <name>Sartori</name>
+            </persName> 
+            <persName xml:id="tombola" ref="">
+                <name>Tombola</name>
+            </persName>
+            <persName xml:id="rodighiero" ref="">
+                <name>Rodighiero</name>
+            </persName>
+            <persName xml:id="romaro" ref="">
+                <name>Romaro</name>
+            </persName>
+            <persName xml:id="pavanato" ref="">
+                <name>Pavanato</name>
+            </persName>
+            <persName xml:id="golin" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Golin">
+                <name>Golin</name>
+            </persName>
+            <persName xml:id="lbonin" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Luigi_Bonin">
+                <name>Luigi Bonin</name>
+            </persName>
         </list>
         <!-- ########## Lista Term ##########--> 
         <list>
@@ -77,7 +101,7 @@
                 II Seduta - 11 aprile 1945
                 <head>- L'<term xml:id="uomo">UOMO</term> -</head>
                 <p>I° L'uomo come entità spirituale. Mansutti - Nei riflessi della <term xml:id="casa">casa</term> 
-                l'uomo deve essere considerato 
+                l'<term xml:id="uomo">uomo</term> deve essere considerato 
                 non soltanto come ente produttivo 
                 soggetto a necessità pratiche 
                 e utilitarie ma deve essere visto 
@@ -107,7 +131,7 @@
                 Conferenze - proiezioni - gite 
                 istruttive ecc.</p>
 
-                2° L'uomo come entità fisica che deve 
+                <p>2° L'uomo come entità fisica che deve 
                 esercitare i beni (forze e possibilità 
                 fisiche) di cui la natura 
                 lo ha fornito.
@@ -132,9 +156,9 @@
                 Discende anzi da ciò il principio 
                 di sforzare l'uomo al moto dislocando 
                 in centri diversi e a certa distanza 
-                la residenza del centro di lavoro.
+                la residenza del centro di lavoro.</p>
 
-                3° Efficacia dello sport.
+                <p>3° Efficacia dello sport.
                 - nostra visione della vasta possibilità 
                 sportiva consentita dal 
                 clima, dalla natura, dagli elementi 
@@ -145,9 +169,9 @@
                 Mansutti - Il fattore sport e vita naturistica 
                 come elemento armonizzatore 
                 ed equilibratore della personalità umana
-                Tutti - concordano.
+                Tutti - concordano.</p>
 
-                4° Funzione fisiologica della respirazione 
+                <p>4° Funzione fisiologica della respirazione 
                 cutanea - bagni di sole -
                 necessità che la casa offra possibilità 
                 di larga e dinevole insolazione
@@ -156,11 +180,11 @@
 
                 Tutti - concordano
                 - contrari al nudismo ad eccezione 
-                di Mansutti.
-
-                LA CASA
-
-                5° La casa come centro di vita dell'Uomo -
+                di Mansutti.</p>
+            </div>
+            <div>
+                <head>LA CASA</head>
+                <p>5° La casa come centro di vita dell'Uomo -
 
                 Mansutti - rileva la deficenza del nostro 
                 comune concetto di casa che vede 
@@ -196,9 +220,9 @@
                 fulcro dinamico della vita domestica 
                 - creazione di un locale di vita intima.
 
-                Morato - Creazione di un ambiente di lavoro.
+                Morato - Creazione di un ambiente di lavoro.</p>
 
-                6° La casa come ambiente armonizzatore 
+                <p>6° La casa come ambiente armonizzatore 
                 della vita interna con
                 l'ambiente esterno.
 
@@ -207,9 +231,9 @@
                 chiuso e quasi in controposizione 
                 coll'ambiente esterno ma, al contrario 
                 come mezzo di passaggio e raccordo 
-                fra interno ed esterno.
+                fra interno ed esterno.</p>
 
-                7° La fisionomia individuale della
+                <p>7° La fisionomia individuale della
                 Casa.
 
                 Mansutti - La casa deve avere una sua 
@@ -224,20 +248,20 @@
                 costruire
 
                 Rodighiero - propone che per sperimentare 
-                la inabitabilità ed [...] delle case 
-                vecchie ([...] ecc) sia fatto obbligo 
-                a tutti di abitarle a turno.
-
-                Presenti
-                Mansutti 
-                Morato 
-                Sartori 
-                Tombola
-                Rodighiero 
-                Romaro
-                <unclear>Pavanato</unclear> 
-                Golin 
-                Don <unclear>Bonin</unclear>
+                la inabitabilità ed infamia delle case 
+                vecchie (centro, rioni, ecc) sia fatto obbligo 
+                a tutti di abitarle a turno.</p>
+                <signed>Presenti
+                <persName xml:id="fmansutti">Mansutti</persName> 
+                <persName xml:id="morato">Morato</persName> 
+                <persName xml:id="sartori">Sartori</persName> 
+                <persName xml:id="tombola">Tombola</persName>
+                <persName xml:id="rodighiero">Rodighiero</persName> 
+                <persName xml:id="romaro">Romaro</persName>
+                <persName xml:id="pavanato">Pavanato</persName>
+                <persName xml:id="golin">Golin</persName> 
+                <persName xml:id="lbonin">Don Bonin</persName>
+                </signed>
             </div>
         </body>
     </text>
