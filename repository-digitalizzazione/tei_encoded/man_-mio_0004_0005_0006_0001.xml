@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt> 
+                <title>PRINCIPI DI RICOSTRUZIONE EDILIZIA</title>
+                <editor xml:id="sgiammetta">Sharon Giammetta</editor>
+                <principal xml:id="szaggia">Stefano Zaggia</principal>
+                <respStmt ref="#sgiammetta">
+                    <resp>Creatore della versione digitale dello scritto</resp>
+                </respStmt>      
+                <respStmt ref="#szaggia">
+                    <resp>supervisore del lavoro di interpretazione storica</resp>
+                </respStmt>
+                <respStmt xml:id="pborin">
+                    <resp>supervisore del lavoro digitale</resp>
+                    <persName>Paolo Borin</persName>
+                </respStmt>
+                <respStmt xml:id="fmansutti">
+                    <role>Autore originale degli scritti</role>
+                    <persName>Francesco Mansutti</persName>
+                </respStmt>   
+                <respStmt xml:id="smansutti">
+                    <role>Trascrittore originale degli scritti</role>
+                    <persName>Silvia Mansutti</persName>
+                </respStmt>  
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher ref="#sgiammetta">Sharon Giammetta</publisher>
+                <pubPlace>Padova</pubPlace>
+                <date when="2025-02-06">2025</date> 
+                <availability> Specificare licenza con cui codivido il documento TEI. Rivedi licenze viste anche con apertura repository GitHub</availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Questo documento XML è la versione digitale dello scritto "Principi di ricostruzione edilizia"</p>
+            </sourceDesc>
+
+            <encodingDesc>
+                <projectDesc>Il presente documento XML contiene la codifica strutturale e semantica delle sue entità a cui è associato un codice URI che rimanda
+                a un KG e a un'ontologia esterna. Questo documento si propone di completare il lavoro di riordino e organizzazione intrapreso
+                dall'archivio ed è teso a tracciare i temi di ricerca progettuale di MM nel Secondo dopoguerra, catturando anche
+                informazioni rilevanti dal punto di vista storico come nomi di persone, organizzazioni ed eventi significativi
+                che hanno segnato l'operato dei due progettisti (per ricostruire la narrazione storica). 
+                </projectDesc>
+            </encodingDesc>
+        </fileDesc>
+        <!-- ########## Lista Person ##########--> 
+        <list>
+            <head>Lista Person</head>
+            <!-- ########## F #########-->
+            <persName xml:id="fmansutti" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Francesco_Mansutti"> 
+                <name>Francesco Mansutti</name>
+            </persName>
+        </list>
+        <!-- ########## Lista Place ##########--> 
+        <list>
+            <head>Lista Place</head>
+            <!-- ########## I #########-->
+            <term xml:id="Italia" ref=""> 
+                <name>Italia</name>
+            </term>
+        </list>
+        <!-- ########## Lista Event ##########--> 
+        <list>
+            <head>Lista Event</head>
+            <!-- ########## R #########-->
+            <term xml:id="ricostruzione" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Ricostruzione_postbellica"> 
+                <name>ricostruzione</name>
+            </term>
+        </list>
+        <!-- ########## Lista Term ##########--> 
+        <list>
+            <head>Lista Term</head>
+            <!-- ########## A #########-->
+            <term xml:id="ambiente" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#ambiente"> 
+                <name>ambiente</name>
+            </term>
+            <term xml:id="architettura" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#architettura"> 
+                <name>architettura</name>
+            </term>
+            <!-- ########## D #########-->
+            <term xml:id="deurbanamento" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#deurbanamento"> 
+                <name>deurbanamento</name>
+            </term>
+            <!-- ########## E #########-->
+            <term xml:id="edilizia" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#edilizia"> 
+                <name>edilizia</name>
+            </term>
+            <!-- ########## P #########-->
+            <term xml:id="pianoRegolatore" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#piano_regolatore"> 
+                <name>pianoRegolatore</name>
+            </term>
+            <!-- ########## R #########-->
+            <term xml:id="ricostruzioneEdilizia" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#ricostruzione_edilizia"> 
+                <name>ricostruzione edilizia</name>
+            </term>
+            <term xml:id="ricostruzioneTotale" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#ricostruzione_totale"> 
+                <name>ricostruzione totale</name>
+            </term>
+            <!-- ########## S #########-->
+            <term xml:id="studioDellaRicostruzioneTotale" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#studio_della_ricostruzione_totale"> 
+                <name>studio della ricostruzione totale</name>
+            </term>
+            <term xml:id="studioUrbanisticoDellaRicostruzione" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#studio_urbanistico_della_ricostruzione"> 
+                <name>studioUrbanisticoDellaRicostruzione</name>
+            </term>
+            <!-- ########## U #########-->
+            <term xml:id="urbanistica" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#urbanistica"> 
+                <name>urbanistica</name>
+            </term>
+        </list>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>PRINCIPI DI RICOSTRUZIONE EDILIZIA</head>
+                <p>Lo studio della <term xml:id="ricostruzioneEdilizia">ricostruzione edilizia</term> acquista il suo valore ed il suo 
+                pieno significato soltanto se inserito nel quadro della <term xml:id="ricostruzioneTotale">ricostruzione 
+                totalitaria della nazione</term>: <gloss target="#ricostruzioneTotale"><term>Ricostruzione sociale ed individuale</term>, <term>spirituale 
+                e morale</term>, <term xml:id="ricostruzioneEdilizia">edilizia</term>, <term>industriale</term> ed <term>agricola</term>.</gloss>
+                Considerata a sé stante e come fatto puramente tecnico, in dipendenza 
+                di contingenze materiali, la <term xml:id="ricostruzioneEdilizia">ricostruzione edilizia</term> si riduce ad un fatto 
+                meschino gravido di conseguenze deleterie allo sviluppo della vita 
+                futura.</p>
+                <p>Lo <term xml:id="studioDellaRicostruzioneTotale">studio della <term xml:id="ricostruzioneTotale">ricostruzione totalitaria</term></term> è quindi <gloss target="#studioDellaRicostruzioneTotale">la indispensabile 
+                premessa a quello della <term>ricostruzione edilizia</term>. Questa ricerca, profondamente 
+                umana supera di gran lunga uno studio tecnico urbanistico 
+                ed è compito non soltanto dei tecnici ma di tutte le classi sociali 
+                che devono essere chiamate a determinare i bisogni e le direttive e 
+                soprattutto i principi ideali della vita di domani.
+                <term xml:id="Urbanistica">Urbanistica</term> ed <term xml:id="Edilizia">edilizia</term> sono funzioni dirette della vita e non possono 
+                essere né determinate e neppure accennate prima che sia chiaramente 
+                determinata quella.</gloss></p>
+                <p>La <term xml:id="secondaGuerraMondiale">guerra</term> che noi viviamo non è una <term xml:id="secondaGuerraMondiale">guerra</term> comune determinata da interessi 
+                o ideologie particolari, è, soprattutto, <gloss target="#secondaGuerraMondiale">un episodio della rivoluzione 
+                mondiale in che i popoli si dibattono per superare il mondo di 
+                ieri e creare le basi di quello di domani: base spirituale, sociale, 
+                economica, morale ecc.</gloss>
+                Considerare la <term xml:id="ricostruzioneEdilizia">ricostruzione edilizia</term> alla stregua dei principi e dei 
+                bisogni della vita di ieri senza tener conto di questo fatto immanente 
+                e degli infiniti e grandiosi ammaestramenti che questa <term xml:id="secondaGuerraMondiale">guerra</term> ci fornisce 
+                è addirittura assurdo.</p>
+                <p>Il mondo di domani, immediato o mediato che sia, deve essere radicalmente 
+                diverso da quello di ieri; fondato su principii e basi ideali assolutamente 
+                nuovi, rispondenti ad una giustizia sociale più umana e ad una 
+                aspirazione ideale più elevata.
+                L'evento <event xml:id="ricostruzione">ricostruzione</event> va perciò considerato come <gloss target="#ricostruzione">una nuova rinascita</gloss> ed 
+                affrontato non già con principii nazionali e funzionali ma con entusiasmo, 
+                colle più nobili aspirazioni e con visione vasta e serena.</p>
+                <p>Guai a soggiacere alla tirannica e meschina e mai creativa influenza 
+                dell'impellenza e della necessità immediata della ricostruzione. 
+                Condizioni materiali non devono, in alcun modo, soffocare e storapiare 
+                le ragioni ideali.
+                Io considero inoltre che soltanto le ragioni ideali siano la forza propulsiva 
+                e risolutiva, anche nei termini di tempo, delle contingenze 
+                proprie della ricostruzione.
+                Le necessità pratiche incontrollate e non dirette da un impulso creativo 
+                non possono che condurre al caos inconclusivo.</p>
+                <p>La <event xml:id="ricostruzione">ricostruzione</event> <gloss target="#ricostruzione">è un grandioso evento totalitario</gloss>. 
+                Tutta l'Italia è colpita gravemente nelle costruzioni, nelle campagne, 
+                nelle officine, nelle risorse naturali, nelle vie di comunicazione, 
+                nei suoi tesori d'arte, in tutto il suo patrimonio.
+                La <event xml:id="ricostruzione">ricostruzione</event> <gloss target="#ricostruzione">investe città e campagne, l'opera dell'uomo e quelle 
+                della natura in un fenomeno radicale e complesso che esorbite dalla 
+                ricostruzione edilizia vera e propria</gloss>.
+                La visuale dell'evento acquista una vastità ed una integrità veramente 
+                grandiose e sposta radicalmente il problema dalla normale considerazione.
+                Considerato anche in funzione di nuove ragioni sociali e spirituali il 
+                <term xml:id="pianoRegolatore">piano regolatore della città</term> a se stante non ha più senso e <gloss target="#pianoRegolatore">si espande
+                a comprendere campagne a marine e fiumi e monti in un unico piano regolatore 
+                della provincia a sua volta collegato con quello regionale ed 
+                indi con quello nazionale</gloss>.
+                Il <term xml:id="deurbanamento">deurbanamento</term> troverà in questa nuova impostazione della vita la sua 
+                ragione e la sua risoluzione.</p>
+                <p>La <event xml:id="ricostruzione">ricostruzione</event> <gloss target="#ricostruzione">è un evento nazionale, è l'azione risolutiva è compito 
+                dello stato. Solo lo stato può abbracciare in un'unica visuale tutto 
+                il fenomeno e dall'organica impostazione dai singoli problemi. 
+                Solo lo stato può coordinare le capacità di studio e di lavoro delle 
+                varie categorie. Solo lo stato potrà raccogliere, sfruttare e distribuire 
+                nell'interesse comune le risorse della nazione.</gloss>
+                L'attuazione sarà di domani ma lo <term xml:id="studioDellaRicostruzioneTotale">studio del fenomeno</term> <gloss target="#studioDellaRicostruzioneTotale">nel suo complesso 
+                è attualissimo</gloss>.</p>
+                <p><gloss target="#studioDellaRicostruzioneTotale">Nello studio di impostazione dei problemi dobbiamo superare la credenza, 
+                oggi imperante, che la materia sia l'unica base del costruire e 
+                fondare le nostre direttive sull'insuperabile potere delle energie spirituali</gloss>. 
+                I massimi mezzi meccanicamente sfruttati con criteri tecnico-pratici 
+                non varranno mai quanto i più poveri mezzi al servizio di una visione 
+                ed una azione luminose sorrette da entusiastica fede. 
+                Bisogna suscitare l'entusiasmo in tutti, piccoli e grandi ed allora 
+                le misere risorse della nostra terra e della nostra economia verranno 
+                moltiplicate di possibilità ed adattate perfettamente ai bisogni.</p>
+                <p>L'<placeName xml:id="Italia">Italia</placeName> <gloss target="#Italia">è un tesoro immenso d'arte, di cultura, di umanità. In questo 
+                senso è veramente il centro dell'universo</gloss>. 
+                Questa è la premessa fondamentale della <term xml:id="ricostruzioneTotale">ricostruzione</term>. Qualche compito 
+                immane per mano in questo sacrario dell'umanità pur ieri vivo e da
+                tutto il mondo considerato con venerazione!
+                Dalla <term xml:id="ricostruzioneTotale">ricostruzione</term> dipende che questo tesoro riviva domani, che 
+                l'<placeName xml:id="Italia">Italia</placeName> di domani sia ancora splendente di umana bellezza o sia 
+                un pasticcio di grottesche e superficiali costruzioni.
+                La ispirazione non può venirci dall'estero, dobbiamo rientrare in noi 
+                stessi, ritrovare la nostra latinità, ritornare italiani, figli del 
+                nostro clima mediterraneo, nutriti della nostra storia, delle ragioni 
+                intime della nostra vita.
+                Dobbiamo ritrovare la nostra armonia mediterranea fatta di equilibrio 
+                tra umanità e natura, tra scienza ed impeto lirico, tra l'individuale 
+                e l'universale.</p>
+                <p>La <term xml:id="ricostruzioneTotale">Ricostruzione</term> sottende il problema dell'educazione. L'<term xml:id="architettura">architettura</term> 
+                e l'<term xml:id="edilizia">edilizia</term> in genere <gloss target="#edilizia"><gloss target="#architettura">sono l'espressione del grado di civiltà 
+                di un popolo ma queste sono anche fattori determinanti dell'educazione 
+                del popolo stesso</gloss></gloss>.
+                Dall'<term xml:id="ambiente">ambiente</term> in cui viviamo riceviamo profonde influenze nello spirito, 
+                negli affetti e nel costume creative o distruttrici: <gloss target="#ambiente">un ambiente
+                ricco di nobiltà, di armonia e di amore ci da l'afflato più fecondo 
+                di questi principi; un ambiente disorganico e volgare ci fa 
+                subire inconsapevolmente ma sicuramente disordine spirituale e 
+                volgarità</gloss>.
+                Socialmente considerando è da preferire cento medici pazzi ad un solo 
+                architetto grossolano e squilibrato; quelli possono ammazzare fisicamente 
+                qualche dozzina di individui creduloni, questo può opprimere 
+                spiritualmente migliaia di persone.
+                Non tenere conto di ciò nella <term xml:id="ricostruzioneEdilizia">ricostruzione edilizia</term> significherebbe 
+                commettere il più tragico errore in danno del nostro popolo che 
+                ha bisogno di essere rifatto nei sentimenti, nell'educazione e nel 
+                più intimo degli affetti.</p>
+                <p>E' chiaro che la legislazione urbanistica vigente, non fatta per 
+                gli sviluppi della vita normale e per un'organizzazione sociale 
+                già superata, non può servire di base alla <term xml:id="ricostruzioneTotale">ricostruzione</term> che <gloss target="#ricostruzioneTotale">non 
+                è soltanto <term xml:id="urbanistica">urbanistica</term> ma comprende tutti i campi dell'attività 
+                costruttiva, industriale ed agricola della nazione.</gloss>
+                Lo <term xml:id="studioUrbanisticoDellaRicostruzione">studio urbanistico della ricostruzione</term> <gloss target="#studioUrbanisticoDellaRicostruzione">deve pertanto essere preceduto 
+                dalla legislazione che discende dalle nuove esigenze accennate.</gloss>
+                Altro importantissimo campo legislativo è quello dell'esecutivo: 
+                oggi accade che chiunque imbrattacarte (diplomato o non, poco importa) 
+                progetta ed eseguisce le costruzioni più balorde e che 
+                p. es. coll'approvazione del progetto di una casa a due piani se 
+                ne possa costruire una di quattro mediante un'ammenda di un centinaio 
+                di lire.
+                Assurdità che hanno già fatto, e troppo il loro tempo.</p>
+                <signed><persName xml:id="fmansutti">Francesco Mansutti</persName></signed>
+            </div>
+        </body>
+    </text>
+</TEI>
