@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt> 
+                <title>L'UOMO</title>
+                <editor xml:id="sgiammetta">Sharon Giammetta</editor>
+                <principal xml:id="szaggia">Stefano Zaggia</principal>
+                <respStmt ref="#sgiammetta">
+                    <resp>Creatore della versione digitale dello scritto</resp>
+                </respStmt>      
+                <respStmt ref="#szaggia">
+                    <resp>supervisore del lavoro di interpretazione storica</resp>
+                </respStmt>
+                <respStmt xml:id="pborin">
+                    <resp>supervisore del lavoro digitale</resp>
+                    <persName>Paolo Borin</persName>
+                </respStmt>
+                <respStmt xml:id="">
+                    <role>Autore originale degli scritti</role>
+                    <persName></persName>
+                </respStmt>   
+                <respStmt xml:id="smansutti">
+                    <role>Trascrittore originale degli scritti</role>
+                    <persName>Silvia Mansutti</persName>
+                </respStmt>  
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher ref="#sgiammetta">Sharon Giammetta</publisher>
+                <pubPlace>Padova</pubPlace>
+                <date when="2025-02-28">2025</date> 
+                <availability> Specificare licenza con cui codivido il documento TEI. Rivedi licenze viste anche con apertura repository GitHub</availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Questo documento XML è la versione digitale dello scritto "L'UOMO"</p>
+            </sourceDesc>
+
+            <encodingDesc>
+                <projectDesc>Il presente documento XML contiene la codifica strutturale e semantica delle sue entità a cui è associato un codice URI che rimanda
+                a un KG e a un'ontologia esterna. Questo documento si propone di completare il lavoro di riordino e organizzazione intrapreso
+                dall'archivio ed è teso a tracciare i temi di ricerca progettuale di MM nel Secondo dopoguerra, catturando anche
+                informazioni rilevanti dal punto di vista storico come nomi di persone, organizzazioni ed eventi significativi
+                che hanno segnato l'operato dei due progettisti (per ricostruire la narrazione storica). 
+                </projectDesc>
+            </encodingDesc>
+        </fileDesc>
+        <!-- ########## Lista Person ##########--> 
+        <list>
+            <head>Lista Person</head>
+            <!-- ########## F #########-->
+            <persName xml:id="fmansutti" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Francesco_Mansutti"> 
+                <name>Francesco Mansutti</name>
+            </persName>
+        </list>
+        <!-- ########## Lista Term ##########--> 
+        <list>
+            <head>Lista Term</head>
+            <!-- ########## C #########-->
+            <term xml:id="casa" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Casa"> 
+                <name>Casa</name>
+            </term>
+            <!-- ########## U #########-->
+            <term xml:id="uomo" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Uomo"> 
+                <name>Uomo</name>
+            </term>
+        </list>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb xml:id="man_-mio_0004_0005_0006_0014-0001" n="1" facs="man_-mio_0004_0005_0006_0014-0001.tif"/>
+                11 [...]
+                [...] V Se.
+                II Seduta - 11 aprile 1945
+                <head>- L'<term xml:id="uomo">UOMO</term> -</head>
+                <p>I° L'uomo come entità spirituale. Mansutti - Nei riflessi della <term xml:id="casa">casa</term> 
+                l'uomo deve essere considerato 
+                non soltanto come ente produttivo 
+                soggetto a necessità pratiche 
+                e utilitarie ma deve essere visto 
+                soprattutto come entità spirituale 
+                che ha bisogno di coltivare 
+                ed esprimere l'attività dello 
+                spirito.
+
+                Morato - L'uomo per quanto detto sopra 
+                è quindi una entità individuale 
+                completa 
+                - quindi la Società è una società 
+                di individui 
+                - conseguenza: il principio di libertà.
+
+                Mansutti - Anche i bambini sono degli 
+                individui completi e come tali devono 
+                essere considerati nella vita 
+                domestica e nella casa.
+                - I fattori dell'individualità sono: 
+                l'ereditarietà e l'educazione.
+                - necessità di equilibrare nella 
+                vita normale dell'uomo l'attività 
+                fisica e lavorativa e quella intellettuale 
+                e spirituale studiando adeguati 
+                sistemi di vita intima e sociale. 
+                Conferenze - proiezioni - gite 
+                istruttive ecc.</p>
+
+                2° L'uomo come entità fisica che deve 
+                esercitare i beni (forze e possibilità 
+                fisiche) di cui la natura 
+                lo ha fornito.
+
+                Golin - Riconosce i postulati della 
+                vita fisica dell'uomo: moto (a piedi, 
+                in bicicletta ecc.), sport, libero 
+                esercizio nella natura ed auspica 
+                che le case siano dotate di 
+                ampi spazi.
+
+                Mansutti - Necessità ed efficacia 
+                della vita energica e spontanea 
+                nell'ambiente naturale in contrapposto 
+                colla scarsa utilità della 
+                ginnastica da camera.
+                - Conseguenze di ciò: eliminazione 
+                delle difficoltà di trasferirsi da 
+                una zona all'altra superando anche 
+                e con mezzi più semplici (a piedi 
+                o in bicicletta), considerativi distanze. 
+                Discende anzi da ciò il principio 
+                di sforzare l'uomo al moto dislocando 
+                in centri diversi e a certa distanza 
+                la residenza del centro di lavoro.
+
+                3° Efficacia dello sport.
+                - nostra visione della vasta possibilità 
+                sportiva consentita dal 
+                clima, dalla natura, dagli elementi 
+                naturali
+                - deficenza della ginnastica da 
+                camera.
+
+                Mansutti - Il fattore sport e vita naturistica 
+                come elemento armonizzatore 
+                ed equilibratore della personalità umana
+                Tutti - concordano.
+
+                4° Funzione fisiologica della respirazione 
+                cutanea - bagni di sole -
+                necessità che la casa offra possibilità 
+                di larga e dinevole insolazione
+                per gli abitanti mediante 
+                terrazze, poggioli, cortili, giardini, ecc.
+
+                Tutti - concordano
+                - contrari al nudismo ad eccezione 
+                di Mansutti.
+
+                LA CASA
+
+                5° La casa come centro di vita dell'Uomo -
+
+                Mansutti - rileva la deficenza del nostro 
+                comune concetto di casa che vede 
+                la casa soltanto sotto l'aspetto pratico, 
+                igienico, utilitario, estetico 
+                ecc.
+                bisogna, oggi, avere una visione più completa 
+                e cioè anche sotto l'aspetto spirituale 
+                ed estetico.
+                Bisogna stabilire degli elementi di 
+                giudizio e delle norme anche sotto a 
+                quest'ultimo aspetto.
+
+                Morato - La casa deve essere vista sotto 
+                l'aspetto di punto d'appoggio di 
+                individui.
+
+                Mansutti - La casa vista come centro di 
+                vita interiore.
+
+                Tutti - Contro la casa standard.
+
+                Morato - La casa come centro di vita 
+                famigliare e come centro di raccoglimento 
+                spirituale e culturale dell'individuo.
+                - locale, anche piccolo, adatto.
+
+                Mansutti - Differente organizzazione 
+                del congegno "casa" in rapporto a questa 
+                sua più nobile funzione; stanza unica 
+                o quasi - abolizione dei salotti 
+                borghesi - ingresso e disbrigo come 
+                fulcro dinamico della vita domestica 
+                - creazione di un locale di vita intima.
+
+                Morato - Creazione di un ambiente di lavoro.
+
+                6° La casa come ambiente armonizzatore 
+                della vita interna con
+                l'ambiente esterno.
+
+                Mansutti - Della necessità di considerare 
+                la casa non solo come ambiente 
+                chiuso e quasi in controposizione 
+                coll'ambiente esterno ma, al contrario 
+                come mezzo di passaggio e raccordo 
+                fra interno ed esterno.
+
+                7° La fisionomia individuale della
+                Casa.
+
+                Mansutti - La casa deve avere una sua 
+                individualità similemente a quanto per 
+                l'uomo. Tale individualità deve essere 
+                determinata, oltre che dall'organismo 
+                interno, anche dall'espressione 
+                esteriore attraverso principi di onestà, 
+                semplicità e chiarezza espressiva.
+
+                Morato - Le case che non si devono 
+                costruire
+
+                Rodighiero - propone che per sperimentare 
+                la inabitabilità ed [...] delle case 
+                vecchie ([...] ecc) sia fatto obbligo 
+                a tutti di abitarle a turno.
+
+                Presenti
+                Mansutti 
+                Morato 
+                Sartori 
+                Tombola
+                Rodighiero 
+                Romaro
+                <unclear>Pavanato</unclear> 
+                Golin 
+                Don <unclear>Bonin</unclear>
+            </div>
+        </body>
+    </text>
+</TEI>
