@@ -35,7 +35,11 @@
             </publicationStmt>
 
             <sourceDesc>
-                <p>Questo documento XML è la versione digitale dello scritto "Principi di ricostruzione edilizia"</p>
+                <p>Questo documento XML è la versione digitale dello scritto "Principi di ricostruzione edilizia". Il testo discute i principi fondamentali della ricostruzione edilizia, enfatizzando che essa non deve essere vista solo come un intervento tecnico, ma come parte di un progetto di ricostruzione globale della nazione. La ricostruzione deve includere aspetti sociali, morali, spirituali ed economici, e non può essere guidata solo da necessità materiali immediate. La visione della ricostruzione deve essere orientata a un mondo nuovo, fondato su principi ideali di giustizia sociale e umanità, e deve coinvolgere tutte le classi sociali.
+                L'urbanistica e l'edilizia devono essere considerate in relazione con la vita e i bisogni della società, non come atti separati, e devono riflettere un'aspirazione ideale piuttosto che rispondere solo alle necessità pratiche. La ricostruzione, secondo l'autore, è un evento nazionale che deve essere coordinato dallo Stato, che è l'unico in grado di gestire in modo organico e unitario le risorse del paese.
+                Mansutti sottolinea l'importanza di non limitarsi a una visione funzionalista della ricostruzione, ma di promuovere l'entusiasmo e l'ideale per guidare la trasformazione. La ricostruzione deve essere ispirata dalla storia e dalle tradizioni italiane, in particolare dal patrimonio culturale e dalla visione mediterranea, equilibrata tra natura, umanità e scienza.
+                L'autore conclude enfatizzando che la ricostruzione non riguarda solo l'urbanistica, ma l'intero sistema socio-economico, ed è urgente riformare la legislazione urbanistica e edilizia, per evitare errori che potrebbero compromettere il futuro della nazione.
+                </p>
             </sourceDesc>
 
             <encodingDesc>
@@ -55,21 +59,43 @@
                 <name>Francesco Mansutti</name>
             </persName>
         </list>
+        <!-- ########## Lista Organization ##########--> 
+        <list>
+            <head>Lista Organization</head>
+            <!-- ########## S #########-->
+            <persName xml:id="statoItaliano" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Stato_italiano"> 
+                <name>Stato italiano</name>
+            </persName>
+        </list>
         <!-- ########## Lista Place ##########--> 
         <list>
             <head>Lista Place</head>
             <!-- ########## I #########-->
-            <term xml:id="Italia" ref=""> 
+            <term xml:id="Italia" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Italia"> 
                 <name>Italia</name>
             </term>
         </list>
         <!-- ########## Lista Event ##########--> 
         <list>
             <head>Lista Event</head>
+            <!-- ########## G #########-->
+            <event xml:id="secondaGuerraMondiale" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Seconda_Guerra_Mondiale"> 
+                <name>Seconda Guerra Mondiale</name>
+            </event>
             <!-- ########## R #########-->
-            <term xml:id="ricostruzione" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Ricostruzione_postbellica"> 
+            <event xml:id="ricostruzione" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#Ricostruzione_postbellica"> 
                 <name>ricostruzione</name>
-            </term>
+            </event>
+            <!-- ########## S #########-->
+            <event xml:id="studioDellaRicostruzioneEdilizia" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#studio_della_ricostruzione_edilizia"> 
+                <name>studio della ricostruzione totale</name>
+            </event>
+            <event xml:id="studioDellaRicostruzioneTotale" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#studio_della_ricostruzione_totale"> 
+                <name>studio della ricostruzione totale</name>
+            </event>
+            <event xml:id="studioUrbanisticoDellaRicostruzione" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#studio_urbanistico_della_ricostruzione"> 
+                <name>studioUrbanisticoDellaRicostruzione</name>
+            </event>
         </list>
         <!-- ########## Lista Term ##########--> 
         <list>
@@ -100,13 +126,6 @@
             <term xml:id="ricostruzioneTotale" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#ricostruzione_totale"> 
                 <name>ricostruzione totale</name>
             </term>
-            <!-- ########## S #########-->
-            <term xml:id="studioDellaRicostruzioneTotale" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#studio_della_ricostruzione_totale"> 
-                <name>studio della ricostruzione totale</name>
-            </term>
-            <term xml:id="studioUrbanisticoDellaRicostruzione" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#studio_urbanistico_della_ricostruzione"> 
-                <name>studioUrbanisticoDellaRicostruzione</name>
-            </term>
             <!-- ########## U #########-->
             <term xml:id="urbanistica" ref="http://www.semanticweb.org/sharo/ontologies/2024/11/OntologiaStudiArchitettoniciPostbellici#urbanistica"> 
                 <name>urbanistica</name>
@@ -118,7 +137,7 @@
             <div>
                 <pb xml:id="man_-mio_0004_0005_0006_0001-0001" n="1" facs="man_-mio_0004_0005_0006_0001-0001.tif"/>
                 <head>PRINCIPI DI RICOSTRUZIONE EDILIZIA</head>
-                <p>Lo studio della <term xml:id="ricostruzioneEdilizia">ricostruzione edilizia</term> acquista il suo valore ed il suo 
+                <p>Lo <event xml:id="studioDellaRicostruzioneEdilizia">studio della <term xml:id="ricostruzioneEdilizia">ricostruzione edilizia</term></event> acquista il suo valore ed il suo 
                 pieno significato soltanto se inserito nel quadro della <term xml:id="ricostruzioneTotale">ricostruzione 
                 totalitaria della nazione</term>: <gloss target="#ricostruzioneTotale"><term>Ricostruzione sociale ed individuale</term>, <term>spirituale 
                 e morale</term>, <term xml:id="ricostruzioneEdilizia">edilizia</term>, <term>industriale</term> ed <term>agricola</term>.</gloss>
@@ -126,7 +145,7 @@
                 di contingenze materiali, la <term xml:id="ricostruzioneEdilizia">ricostruzione edilizia</term> si riduce ad un fatto 
                 meschino gravido di conseguenze deleterie allo sviluppo della vita 
                 futura.</p>
-                <p>Lo <term xml:id="studioDellaRicostruzioneTotale">studio della <term xml:id="ricostruzioneTotale">ricostruzione totalitaria</term></term> è quindi <gloss target="#studioDellaRicostruzioneTotale">la indispensabile 
+                <p>Lo <event xml:id="studioDellaRicostruzioneTotale">studio della <term xml:id="ricostruzioneTotale">ricostruzione totalitaria</term></event> è quindi <gloss target="#studioDellaRicostruzioneTotale">la indispensabile 
                 premessa a quello della <term>ricostruzione edilizia</term>. Questa ricerca, profondamente 
                 umana supera di gran lunga uno studio tecnico urbanistico 
                 ed è compito non soltanto dei tecnici ma di tutte le classi sociali 
@@ -135,14 +154,14 @@
                 <term xml:id="Urbanistica">Urbanistica</term> ed <term xml:id="Edilizia">edilizia</term> sono funzioni dirette della vita e non possono 
                 essere né determinate e neppure accennate prima che sia chiaramente 
                 determinata quella.</gloss></p>
-                <p>La <term xml:id="secondaGuerraMondiale">guerra</term> che noi viviamo non è una <term xml:id="secondaGuerraMondiale">guerra</term> comune determinata da interessi 
+                <p>La <event xml:id="secondaGuerraMondiale">guerra</event> che noi viviamo non è una <event xml:id="secondaGuerraMondiale">guerra</event> comune determinata da interessi 
                 o ideologie particolari, è, soprattutto, <gloss target="#secondaGuerraMondiale">un episodio della rivoluzione 
                 mondiale in che i popoli si dibattono per superare il mondo di 
                 ieri e creare le basi di quello di domani: base spirituale, sociale, 
                 economica, morale ecc.</gloss>
                 Considerare la <term xml:id="ricostruzioneEdilizia">ricostruzione edilizia</term> alla stregua dei principi e dei 
                 bisogni della vita di ieri senza tener conto di questo fatto immanente 
-                e degli infiniti e grandiosi ammaestramenti che questa <term xml:id="secondaGuerraMondiale">guerra</term> ci fornisce 
+                e degli infiniti e grandiosi ammaestramenti che questa <event xml:id="secondaGuerraMondiale">guerra</event> ci fornisce 
                 è addirittura assurdo.</p>
                 <pb xml:id="man_-mio_0004_0005_0006_0001-0002" n="2" facs="man_-mio_0004_0005_0006_0001-0002.tif"/>
                 <p>Il mondo di domani, immediato o mediato che sia, deve essere radicalmente 
@@ -162,7 +181,7 @@
                 Le necessità pratiche incontrollate e non dirette da un impulso creativo 
                 non possono che condurre al caos inconclusivo.</p>
                 <p>La <event xml:id="ricostruzione">ricostruzione</event> <gloss target="#ricostruzione">è un grandioso evento totalitario</gloss>. 
-                Tutta l'Italia è colpita gravemente nelle costruzioni, nelle campagne, 
+                Tutta l'<placeName xml:id="Italia">Italia</placeName> è colpita gravemente nelle costruzioni, nelle campagne, 
                 nelle officine, nelle risorse naturali, nelle vie di comunicazione, 
                 nei suoi tesori d'arte, in tutto il suo patrimonio.
                 La <event xml:id="ricostruzione">ricostruzione</event> <gloss target="#ricostruzione">investe città e campagne, l'opera dell'uomo e quelle 
@@ -179,12 +198,12 @@
                 Il <term xml:id="deurbanamento">deurbanamento</term> troverà in questa nuova impostazione della vita la sua 
                 ragione e la sua risoluzione.</p>
                 <p>La <event xml:id="ricostruzione">ricostruzione</event> <gloss target="#ricostruzione">è un evento nazionale, è l'azione risolutiva è compito 
-                dello stato. Solo lo stato può abbracciare in un'unica visuale tutto 
+                dello <orgName xml:id="Stato">stato</orgName>. Solo lo stato può abbracciare in un'unica visuale tutto 
                 il fenomeno e dall'organica impostazione dai singoli problemi. 
                 Solo lo stato può coordinare le capacità di studio e di lavoro delle 
                 varie categorie. Solo lo stato potrà raccogliere, sfruttare e distribuire 
                 nell'interesse comune le risorse della nazione.</gloss>
-                L'attuazione sarà di domani ma lo <term xml:id="studioDellaRicostruzioneTotale">studio del fenomeno</term> <gloss target="#studioDellaRicostruzioneTotale">nel suo complesso 
+                L'attuazione sarà di domani ma lo <event xml:id="studioDellaRicostruzioneTotale">studio del fenomeno</event> <gloss target="#studioDellaRicostruzioneTotale">nel suo complesso 
                 è attualissimo</gloss>.</p>
                 <p><gloss target="#studioDellaRicostruzioneTotale">Nello studio di impostazione dei problemi dobbiamo superare la credenza, 
                 oggi imperante, che la materia sia l'unica base del costruire e 
@@ -234,7 +253,7 @@
                 già superata, non può servire di base alla <term xml:id="ricostruzioneTotale">ricostruzione</term> che <gloss target="#ricostruzioneTotale">non 
                 è soltanto <term xml:id="urbanistica">urbanistica</term> ma comprende tutti i campi dell'attività 
                 costruttiva, industriale ed agricola della nazione.</gloss>
-                Lo <term xml:id="studioUrbanisticoDellaRicostruzione">studio urbanistico della ricostruzione</term> <gloss target="#studioUrbanisticoDellaRicostruzione">deve pertanto essere preceduto 
+                Lo <event xml:id="studioUrbanisticoDellaRicostruzione">studio urbanistico della ricostruzione</event> <gloss target="#studioUrbanisticoDellaRicostruzione">deve pertanto essere preceduto 
                 dalla legislazione che discende dalle nuove esigenze accennate.</gloss>
                 Altro importantissimo campo legislativo è quello dell'esecutivo: 
                 oggi accade che chiunque imbrattacarte (diplomato o non, poco importa) 
