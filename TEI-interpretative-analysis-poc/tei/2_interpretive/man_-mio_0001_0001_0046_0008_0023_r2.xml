@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">
+          I.R.E. - PALAZZO VIA ALTINATE
+          GRAFICO D'AVANZAMENTO DEI LAVORI
+        </title>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority xml:id="sgiammetta">Sharon Giammetta</authority>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="it">
+            I.R.E. - PALAZZO VIA ALTINATE
+            GRAFICO D'AVANZAMENTO DEI LAVORI
+          </title>
+          <date notAfter="1950-08-01" xml:lang="it">ante 1 agosto 1950</date>
+          <author>unknown</author>
+          <note type="interpretation" subtype="hypothesis" resp="#sgiammetta" xml:lang="en">
+            There is no title block indicating the name of the drafter or the entity responsible for this document. 
+            Probably the original <mentioned>unknown</mentioned> author of this document is the Grassetto Construction Company.
+          </note>
+          <distributor xml:lang="it">Archivio del '900 (MART)</distributor>
+          <idno>Man-Mio-1.1.46.8.23</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xml:lang="en">
+      <p>
+        The encoding follows a selective approach that aims to reflect the analytical practices of traditional historical research. 
+        The encoding process focuses on identifying relevant content within the source (content encoding), while interpretative 
+        annotations are used to note hypotheses, correlations, and other interpretative aspects that emerge during the close reading and analysis. 
+        Relevant text segments and terms have been marked to trace the process of identification, interpretation, connection and correlation 
+        of meaningful information distributed across the sources.
+      </p>
+    </encodingDesc>
+  </teiHeader>
+
+  <facsimile>
+    <surface type="construction drawing" xml:id="project-progress-chart">
+      
+      <graphic url="https://archive.org/details/man_-mio_0001_0001_0046_0008_0023"/>
+      
+      <!--Title block-->
+      <zone type="title-block" subtype="drawing-title">
+        <line>I.R.E. - PALAZZO VIA ALTINATE</line>
+        <line>GRAFICO D'AVANZAMENTO DEI LAVORI</line>
+      </zone>
+      
+      <!--Gantt Chart-->
+      <zone type="diagram" subtype="Gantt-chart" xml:id="First-IRE-building-Gantt-chart">
+        <figure>
+          <figDesc xml:lang="it">
+            Grafico di avanzamento lavori del Primo Palazzo IRE, articolato in tre fasi di lavoro, con sottofasi operative, 
+            sequenze temporali e riferimenti alle <term xml:id="procurement-phase">fasi di approvvigionamento</term>.
+          </figDesc>
+          <figDesc xml:lang="en">
+            Construction schedule of the First IRE Building, organized into three work phases, with operational sub-phases, 
+            temporal sequences, and references to the <term xml:id="procurement-phase">procurement stages</term>.
+          </figDesc>
+        </figure>
+
+        <zone corresp="#procurement-phase">
+          <line>FINE 2° SOTTOFASE APPROVVIG</line> 
+          <line><seg><date when="1950-08-20">20 AGOSTO 1950</date></seg></line>   
+        </zone>
+
+        <zone corresp="#procurement-phase" xml:id="#first-procurement-phase">
+          <line>FINE 1° SOTTOFASE APPROV.</line> 
+          <line><seg><date when="1950-09-15">15 SETTEMBRE 1950</date></seg></line>   
+        </zone>
+
+        <zone corresp="#procurement-phase" xml:id="#first-procurement-phase">
+          <line>FINE 1° SOTTOFASE APPROV.</line> 
+          <line><seg><date when="1950-10-10">10 OTTOBRE 1950</date></seg></line>   
+        </zone>
+
+        <zone corresp="#procurement-phase">
+          <line>FINE 2° SOTTOFASE APPROV</line> 
+          <line><seg><date when="1950-10-21">21 OTTOBRE 1950</date></seg></line>   
+        </zone>
+
+        <zone corresp="#procurement-phase">
+          <line>FINE 3° FASE</line> 
+          <line>APPROVVIG.</line>
+          <line><seg><date when="1950-10-13">13-X-50</date></seg></line>   
+        </zone>
+
+        <zone corresp="#procurement-phase">
+          <line>FINE 3° SOTTOFASE</line> 
+          <line><seg><date when="1950-11-15">APPR. 15-XI-50</date></seg></line>   
+        </zone>
+
+        <zone corresp="#procurement-phase">
+          <line>FINE 4° SOTTOFASE APPROVV. 1 DIC. 1950</line>   
+        </zone>
+      </zone>
+
+      <!--Gantt Chart Legend-->
+      <zone type="legend" xml:id="construction-task-legend" >
+        <seg>
+          <list>
+            <item n="6">
+              <p>
+                6) GETTO PILASTRI TRAVI SCALA SOLAI
+              </p>
+            </item>
+            <item n="5">
+              <p>
+                5) POSA FERRO SOLAI
+              </p>
+            </item>
+            <item n="4">
+              <p>  
+                4) POSA SOLAI IN LATERIZIO
+              </p>
+            </item>
+            <item n="3">
+              <p>
+                3) POSA FERRO TRAVI E SCALA
+              </p>
+            </item>
+            <item n="2">
+              <p>
+                2) ARMAMENTO PILASTRI TRAVI SCALA
+              </p>
+            </item> 
+            <item  n="1">
+              <p>
+                1) POSA FERRO PILASTRI
+              </p>
+            </item>
+          </list>
+        </seg>
+      </zone>
+
+      <!--Table of Procurement and Work Phases-->
+      <zone type="table" xml:id="phase-table">
+        <figure>
+          <table>
+            <head>FASI DI APPROVVIGIONAMENTO E LAVORO</head>
+            <row n="2" corresp="#procurement-phase" xml:id="#first-procurement-phase">
+              <cell role="phasename">
+                1° FASE APPROVVIG.
+              </cell>
+              <cell role="description">
+                  1° SOTTOFASE OPERE GREZZE E FACCIATE
+                  2° SOTTOFASE CONTORNI E RIVESTIMENTI ESTERNI IN MARMO
+              </cell>
+              <cell role="date">
+                <date when="1950-09-15">FINE 15-IX-50</date>
+                <date when="1950-08-20">FINE 20.VIII.50</date>
+              </cell>
+            </row>
+            <row n="4" corresp="#procurement-phase">
+              <cell role="phasename">
+                2° FASE APPROVVIG.
+              </cell>
+              <cell role="description">
+                1° SOTTOFASE: PROTEZIONE INVERNALE SERRAMENTI E CHIUSURE ESTERNE
+                2° SOTTOFASE: INTONACI, PAVIMENTI, RIVESTIMENTI, SERRAMENTI FINO 3° PIANO
+                3° SOTTOFASE: IDEM, IDEM, IDEM, FINO 5° PIANO
+                4° SOTTOFASE: IDEM, IDEM, IDEM, FINO 8° PIANO
+              </cell>
+              <cell role="date">
+                <date when="1950-10-10">FINE 10.X.50</date>
+                <date when="1950-10-21">FINE 21.X.50</date>
+                <date when="1950-11-15">FINE 15.XI.50</date>
+                <date when="1950-12-01">FINE 1.XII.50</date>
+              </cell>
+            </row>
+            <row n="6" corresp="#procurement-phase">
+              <cell role="phasename">
+                3° FASE APPROVVIG.
+              </cell>
+              <cell role="description">
+                PITTORE-DECORATORE-PARCHETTI-STUCCATORE-ECC.
+              </cell>
+              <cell role="date">
+                <date when="1950-10-13">FINE 13.X.50</date>
+              </cell>
+            </row>
+          </table>
+        </figure>
+      </zone>
+
+            <!--Other views/elements of the drawing-->
+      <zone>
+        <seg>
+          ...
+        </seg>
+      </zone>
+
+    </surface>
+  </facsimile>
+  
+</TEI>
