@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title>Title of the Document</title>
+        </titleStmt>
+
+        <publicationStmt>
+            <p>Information about publication or distribution</p>
+        </publicationStmt>
+        
+        <sourceDesc>
+            <p>Information about the source</p>
+        </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface>
+
+            <graphic url="cronoprogramma.jpg"/>
+
+            <!-- zona: diagramma principale -->
+            <zone xml:id="z_diagramma" type="diagramma">
+
+            <seg xml:id="s_approvv" ana="#t_approvv">
+                I fase di approvvigionamento
+            </seg>
+
+            </zone>
+
+            <!-- zona: legenda -->
+            <zone xml:id="z_legenda" type="legenda">
+            <seg>
+                ...
+            </seg>
+            </zone>
+
+            <!-- zona: tabella -->
+            <zone xml:id="z_tabella" type="tabella">
+            <seg>
+                ...
+            </seg>
+            </zone>
+
+        </surface>
+    </facsimile>
+  
+</TEI>
