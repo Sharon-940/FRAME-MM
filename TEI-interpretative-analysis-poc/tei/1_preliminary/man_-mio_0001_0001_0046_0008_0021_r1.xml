@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">
+          1^ FASE : APPROVVIGIONAMENTO
+        </title>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority xml:id="sgiammetta">Sharon Giammetta</authority>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="it">1^ FASE : APPROVVIGIONAMENTO</title>
+          <date notAfter="1950-08-20" xml:lang="it">ante 20 agosto 1950</date>
+          <author>unknown</author>
+          <note type="interpretation" subtype="hypothesis" resp="#sgiammetta" xml:lang="en">
+            probably the original <mentioned>unknown</mentioned>author of this document is the Grassetto Construction Company
+          </note>
+          <distributor xml:lang="it">Archivio del '900 (MART)</distributor>
+          <idno>Man-Mio-1.1.46.8.21</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xml:lang="en">
+      <p>
+        The encoding follows a selective approach that aims to reflect the analytical practices of traditional historical research. 
+        The encoding process focuses on identifying relevant content within the source (content encoding), while interpretative 
+        annotations are used to note hypotheses, correlations, and other interpretative aspects that emerge during the close reading and analysis. 
+        Relevant text segments and terms have been marked to trace the process of identification, interpretation, connection and correlation 
+        of meaningful information distributed across the sources.
+      </p>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="it">
+    <body>
+      <div type="document">
+        <head>1^ FASE: APPROVVIGIONAMENTO</head>
+
+        <div type="section" n="1">
+          <head>1. FINITURE ESTERNE:</head>
+          <p>
+            Per il 20 agosto devono essere in cantiere tutti i marmi per le facciate sino al III° piano e poi gradatamente entro il 10 ottobre.
+          </p>
+        </div>
+
+        <div type="section" n="2">
+          <head>2. IMPIANTI:</head>
+          <list>
+            <item>
+              <p>
+                Impianto riscaldamento: contemporaneamente alla costruzione fino al 20 ottobre termine d’ultimazione.
+              </p>
+            </item>
+            <item>
+              <p>
+                Impianto idro-sanitario: contemporaneamente alla costruzione e terminare il 27 ottobre.
+              </p>
+            </item>
+            <item>
+              <p>
+                Impianto elettrico: contemporaneamente alla costruzione e terminare il 31 ottobre.
+              </p>
+            </item>
+            <item>
+              <p>
+                Impianto ascensore: deve iniziare il 12 ottobre e terminare il 13 novembre.
+              </p>
+            </item>
+          </list>
+        </div>
+
+        <div type="section" n="3">
+          <head>3. PROTEZIONE INVERNALE:</head>
+          <p>
+            entro il 10 ottobre devono essere in cantiere tutti i serramenti (serrande in ferro per negozi, portoni esterni, finestre con avvolgibili) da applicare esternamente - perché inizia la posa in opera.
+          </p>
+        </div>
+
+        <div type="section" n="4">
+          <head>4. APPROVVIGIONAMENTI INTERNI:</head>
+          <list>
+            <item>
+              <p>
+                entro il 21 ottobre devono essere in cantiere tutti i serramenti (porte e finestre) da applicare internamente ai piani terra, 1°, 2°, 3° ed entro il 15 novembre devono essere in cantiere tutti i serramenti interni del 4° e 5° piano - perché inizia la posa in opera.
+              </p>
+            </item>
+            <item>
+              <p>
+                entro il 1° dicembre devono essere in cantiere tutti i serramenti interni del 6°, 7° e 8° piano - perché inizia la posa in opera. 
+              </p>
+            </item>
+            <item>
+              <p>
+                per il 25 ottobre devono essere in cantiere tutti i materiali occorrenti per pavimenti e rivestimenti degli appartamenti (pavimento parquetti, pavimento tesserine, pavimento greificato, pavimento linoleum, soglie marmo, pavimento marmo, rivestimento tesserine, rivestimento maiolicate, zoccolo marmo, zoccolo legno, zoccolo greificato, rivestimento scala e pianerottoli, ecc.) per i primi tre piani e poi gradatamente il resto.
+              </p>
+            </item>
+          </list>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
