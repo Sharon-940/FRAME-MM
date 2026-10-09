@@ -13,5 +13,3 @@ The [TEI Interpretative Analysis Proof of Concept](TEI-interpretative-analysis-p
 The experiment distinguishes between preliminary documentary encoding and subsequent analytical enrichment by the historian, including selective content encoding, interpretive annotations, and relationships between sources.
 
 The repository includes XML-TEI documents, XQuery scripts, and supporting documentation.
-
-**[Explore the XML-TEI proof of concept](TEI-interpretative-analysis-poc/)**
