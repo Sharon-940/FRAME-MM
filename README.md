@@ -13,3 +13,9 @@ The [TEI Interpretative Analysis Proof of Concept](TEI-interpretative-analysis-p
 The experiment distinguishes between preliminary documentary encoding and subsequent analytical enrichment by the historian, including selective content encoding, interpretive annotations, and relationships between sources.
 
 The repository includes XML-TEI documents, XQuery scripts, and supporting documentation.
+
+### Digital Annotation of Archival Sources
+
+The [First IRE Building annotation project](https://github.com/Sharon-940/Primo-Palazzo-I.R.E.) explores the use of the International Image Interoperability Framework (IIIF) and Annonatate for the digital annotation of historical architectural sources.
+
+Developed within FRAME-MM, this experiment investigates how IIIF-based access to digitized archival documents can support the identification, annotation, and organization of information during historical research.
