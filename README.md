@@ -1,2 +1,17 @@
 # FRAME-MM
-FRAME-MM (FRom Archives to Modern Epistemologies-Mansutti Miozzo) is a research project focused on building and sharing knowledge about the postwar architecture of MM. Using digital and semantic technologies, FRAME-MM analyzes historical archives to develop new ways of understanding and sharing architectural knowledge
+
+FRAME-MM is a research project focused on the development and sharing of knowledge about the architectural work of Francesco Mansutti and Gino Miozzo, with particular attention to digital methods for the study, analysis, and representation of historical architectural sources.
+
+The project explores how digital and semantic technologies can support architectural-historical research, from the structuring of archival documentation to the analysis and representation of historical knowledge.
+
+## Research Experiments
+
+### XML-TEI for Architectural Historical Analysis
+
+The [TEI Interpretative Analysis Proof of Concept](TEI-interpretative-analysis-poc/) investigates the use of XML-TEI as a working environment for the analytical and interpretive study of historical architectural documents.
+
+The experiment distinguishes between preliminary documentary encoding and subsequent analytical enrichment by the historian, including selective content encoding, interpretive annotations, and relationships between sources.
+
+The repository includes XML-TEI documents, XQuery scripts, and supporting documentation.
+
+**[Explore the XML-TEI proof of concept](TEI-interpretative-analysis-poc/)**
